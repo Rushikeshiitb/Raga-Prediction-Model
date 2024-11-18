@@ -41,8 +41,8 @@ This repository contains the implementation of a **Raga Prediction Model** desig
 3. **Accuracy Calculation**:
    - Compares model predictions with actual labels to compute accuracy.
 
-## Usage
-### Prerequisites
+
+## Prerequisites
 Install the required libraries using:
 ```bash
 pip install pretty-midi numpy pandas matplotlib hmmlearn scikit-learn
