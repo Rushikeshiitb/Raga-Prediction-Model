@@ -47,6 +47,17 @@ Install the required libraries using:
 ```bash
 pip install pretty-midi numpy pandas matplotlib hmmlearn scikit-learn
 ```
+
+## Dataset Structure
+- **Root Folder**:
+  - Contains the full-performance MIDI files named according to the raga.
+
+- **Split_MIDI.ipynb**:
+  - Jupyter Notebook used to split each full-performance MIDI file into 20 parts for easier training and evaluation.
+
+- **main.ipynb**:
+  - Jupyter Notebook containing the complete implementation of feature extraction, model training, testing, and evaluation.
+
 ## Results
 - The model provides accurate raga predictions based on input MIDI files.
 - Accuracy: 100%
