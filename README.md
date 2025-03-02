@@ -1,4 +1,5 @@
 # Hindustani Classical Raga Prediction Model
+- Author: Rushikesh Shinde
 
 ## Project Overview
 This repository contains the implementation of a **Raga Prediction Model** designed specifically for Hindustani Classical Music. The model takes MIDI files as input and predicts the raga based on pitch, duration, and velocity features extracted from the MIDI data. The training dataset was carefully curated from flute concerts of **Pt. Hariprasad Chaurasia**, processed to isolate the flute from accompanying instruments, and converted into MIDI format.
